@@ -1,1 +1,13 @@
 dist
+bin
+_downloads
+_diag.sql
+test/*.log
+hello.txt
+hello世界.txt
+people.csv
+src/sqlite3.c
+src/sqlite3.h
+src/sqlite3ext.h
+src/shell.c
+src/test_windirent.h
