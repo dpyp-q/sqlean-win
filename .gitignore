@@ -1,13 +1,19 @@
-dist
-bin
-_downloads
-_diag.sql
-test/*.log
-hello.txt
-hello世界.txt
-people.csv
-src/sqlite3.c
-src/sqlite3.h
-src/sqlite3ext.h
-src/shell.c
-src/test_windirent.h
+# 编译产物
+dist/
+build/
+*.dll
+*.exe
+*.a
+*.o
+*.obj
+*.lib
+
+# 构建缓存
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# 日志/临时文件
+*.log
+*.tmp
